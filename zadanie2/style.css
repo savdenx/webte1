@@ -1,0 +1,50 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+}
+
+header {
+    background-color: #333333;
+    color: darkorange;
+    padding: 30px;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: rgb(208, 200, 200);
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("roboto-black.ttf") format("truetype");
+}
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fbfbfb;
+    color: darkorange;
+    padding: 10px;
+    border-radius: 0 0 0 10px;
+}
