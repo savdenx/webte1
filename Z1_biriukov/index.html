@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SB – Profil</title>
+    <meta name="description" content="Osobná webová vizitka Saveliia Biriukova, študenta aplikovanej informatiky na FEI STU, ktorého baví vývoj mobilných hier.">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Savelii Biriukov – Profil">
+    <meta property="og:description" content="Kto som, čo študujem a čo ma baví – osobná vizitka študenta FEI STU.">
+    <meta property="og:image" content="https://webte1.fei.stuba.sk/~xbiriukovs/Z1_biriukov/img/og-image.png">
+
+    <link rel="icon" href="favicon.ico?v=2">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#content">Preskočiť na obsah</a>
+
+    <header class="site-header">
+        <div class="container">
+            <a class="site-header__home" href="index.html">
+                <svg class="monogram" viewBox="0 0 80 64" aria-hidden="true">
+                    <text class="monogram__letter monogram__b" x="50" y="55" text-anchor="middle">B</text>
+                    <text class="monogram__letter monogram__gap" x="31" y="55" text-anchor="middle">S</text>
+                    <text class="monogram__letter monogram__s" x="31" y="55" text-anchor="middle">S</text>
+                </svg>
+                <span>
+                    <span class="site-header__name">Savelii Biriukov</span>
+                    <span class="site-header__slogan">Študujem aplikovanú informatiku na FEI a chcem robiť mobilné hry.</span>
+                </span>
+            </a>
+        </div>
+    </header>
+
+    <nav class="nav" aria-label="Hlavné menu">
+        <div class="container">
+            <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="main-menu">☰ Menu</button>
+            <ul class="nav__list" id="main-menu">
+                <li><a class="nav__link nav__link--active" href="index.html" aria-current="page">Profil</a></li>
+                <li><a class="nav__link" href="pages/cv.html">Životopis</a></li>
+                <li><a class="nav__link" href="pages/workspace.html">Pracovné prostredie</a></li>
+                <li><a class="nav__link" href="pages/schedule.html">Môj rozvrh</a></li>
+                <li><a class="nav__link" href="pages/map.html">Kde som</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="content" class="container">
+
+        <h1>Volám sa Savelii Biriukov</h1>
+        <p class="lead">Študujem aplikovanú informatiku na FEI STU v Bratislave a najviac ma baví vývoj mobilných hier.</p>
+
+        <article class="card profile">
+            <h2>Kto som</h2>
+            <img class="profile__photo" src="img/me.jpg" alt="Savelii Biriukov v žltom tričku ukazuje rukou gesto" width="260" height="325" loading="lazy">
+            <p>
+                Som študentom 3. ročníka bakalárskeho štúdia na Fakulte elektrotechniky a informatiky STU,
+                program Aplikovaná informatika. Najviac ma zaujíma vývoj mobilných hier – baví ma, keď z kódu
+                vznikne niečo, čo si človek môže hneď zahrať na telefóne.
+            </p>
+            <p>
+                Mojím cieľom je stať sa nezávislým vývojárom hier a vydávať vlastné hry.
+                Keď práve neprogramujem, skladám Rubikovu kocku alebo športujem.
+            </p>
+        </article>
+
+        <section class="card">
+            <h2>Moje záujmy</h2>
+            <ul class="key-list">
+                <li class="key-list__item">
+                    <h3>Rubikova kocka</h3>
+                    <p>Zložím ju približne za 10 sekúnd a poznám okolo 200 algoritmov na jej skladanie.</p>
+                </li>
+                <li class="key-list__item">
+                    <h3>Programovanie</h3>
+                    <p>Najradšej robím mobilné hry. Vyvíjam ich v Unity pomocou C#.</p>
+                </li>
+                <li class="key-list__item">
+                    <h3>Šport</h3>
+                    <p>Rád si zahrám stolný tenis a volejbal a chodím do posilňovne.</p>
+                </li>
+            </ul>
+        </section>
+
+        <aside class="quote">
+            <p class="quote__text">„Kocka má 43 triliónov pozícií, no so správnym algoritmom sa dá zložiť z ktorejkoľvek.“</p>
+        </aside>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <address class="site-footer__contact">
+                <strong>Savelii Biriukov</strong>
+                <a href="mailto:xbiriukovs@stuba.sk">xbiriukovs@stuba.sk</a>
+                <a href="tel:+421900123456">+421 900 123 456</a>
+                <span>Bratislava, Slovensko</span>
+            </address>
+            <p class="site-footer__sources">Zdroje: profilová fotografia – vlastná, obrázok pracovného stola – vygenerovaný pomocou AI (<a href="https://gemini.google.com/">Google Gemini</a>), mapové podklady – <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, knižnica <a href="https://leafletjs.com/">Leaflet</a>, písmo <a href="https://fonts.google.com/specimen/Rubik">Rubik</a> (SIL Open Font License).</p>
+            <p class="site-footer__copy">© 2026 Savelii Biriukov</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
