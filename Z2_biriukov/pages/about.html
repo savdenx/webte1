@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zdroje, knižnice a spôsob spracovania obedového menu v projekte Z2.">
+  <title>O projekte | Obedové menu v okolí fakulty</title>
+  <link rel="icon" href="../img/meal.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../vendor/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Preskočiť na obsah</a>
+  <header class="site-header">
+    <div class="container navigation">
+      <a class="brand" href="../index.html"><img src="../img/meal.svg" alt="" width="32" height="32">Obed pri
+        fakulte</a>
+    </div>
+  </header>
+  <main id="main" class="container prose">
+    <p class="eyebrow">WEBTE1 · ZADANIE 2</p>
+    <h1>O projekte</h1>
+    <p>Obedové menu troch podnikov pri FEI STU s výberom dňa, týždenným prehľadom a filtrami reštaurácií.</p>
+    <h2>Dáta a aktualizácia</h2>
+    <p>Fetch API načíta HTML a samostatné parsery cez DOMParser a DOM selektory vyberú dni, dátumy, jedlá, ceny, porcie
+      a alergény. Zobrazujú sa iba textové údaje; chyba jedného zdroja neovplyvní ostatné menu.</p>
+    <p>Predvolene sa používajú lokálne HTML kópie bez proxy. Priame webové zdroje môže blokovať CORS. Dáta sa ukladajú
+      do localStorage osobitne pre oba režimy; nové načítanie spustí „Aktualizovať menu“. Pre novú lokálnu ponuku treba
+      nahradiť aj HTML kópie.</p>
+    <p>Čas aktualizácie označuje načítanie do aplikácie. Dátumy menu sa preberajú zo zdrojov bez odhadovania chýbajúcich
+      údajov.</p>
+    <h2>Použité knižnice a font</h2>
+    <ul>
+      <li><a href="https://getbootstrap.com/docs/5.3/layout/grid/">Bootstrap Grid 5.3.8</a> — responzívne rozloženie
+        kariet, licencia MIT.</li>
+      <li><a href="https://day.js.org/">Day.js 1.11.13</a> — dni a formátovanie dátumov, licencia MIT.</li>
+      <li><a href="https://fonts.google.com/specimen/Manrope">Manrope</a> — Mikhail Sharanda; lokálne WOFF2, licencia <a
+          href="../fonts/OFL.txt">SIL Open Font License 1.1</a>.</li>
+    </ul>
+    <p>Font aj knižnice sú uložené lokálne. Ikona je vlastná SVG grafika.</p>
+    <h2>Zdroje menu</h2>
+    <ul>
+      <li><a href="https://faynfood.sk/menu/#fiit-food">FIIT Food</a>, Ilkovičova 2.</li>
+      <li><a href="https://eatandmeet.sk/">Eat &amp; Meet</a>, Staré Grunty 36.</li>
+      <li><a href="https://machnac.sk/denneMenu.html">Machnáč</a>, Nábr. arm. gen. L. Svobodu 42.</li>
+    </ul>
+    <h2>Autorstvo</h2>
+    <p>Savelii Biriukov · krúžok pondelok 11:00, C137 · Webové technológie 1, ZS 2026/2027 · zadanie Z2.</p>
+    <p>OpenAI Codex pomáhal pri návrhu dizajnu, oprave a dopisovaní kódu a písaní textov a komentárov.</p>
+    <p><a href="../index.html">Späť na obedové menu →</a></p>
+  </main>
+  <footer class="site-footer container">
+    <p>Obed pri fakulte</p>
+    <nav class="footer-navigation" aria-label="Hlavná navigácia">
+      <ul>
+        <li><a href="about.html" aria-current="page">O projekte</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>
